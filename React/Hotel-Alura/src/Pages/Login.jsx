@@ -3,7 +3,6 @@ import hotel from "../Imagenes/img-hotel-login-.png"
 import logoHotel from "../Imagenes/aH-150px.png"
 const IniciarSesion = () => {
 
-
     //handleSubmit = () =>{
     //}
 

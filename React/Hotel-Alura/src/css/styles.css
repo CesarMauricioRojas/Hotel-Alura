@@ -57,5 +57,49 @@
     color: rgb(0, 153, 255);
 }
 
+.menu-usuario{
+    height: 550px;
+    display: flex;
+    height: 600px;
+}
+
+
+.menu-usuario_articulo-uno{
+    background-color: rgb(0, 153, 255);
+    
+    width: 250px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-usuario_articulo-uno_link{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-usuario_articulo-uno_logo{
+    margin-top: 50px;
+}
+
+.menu-usuario_articulo-dos{
+    background-color: #FFFFFF;
+    width: 600px;
+}
+
+.menu-usuario_texto{
+    text-align: justify;
+    width: 80%;
+    margin-left: 40px;
+    color: black;
+}
+
+.menu-usuario_titulo{
+    margin-top: 70px;
+    background-color: rgb(80, 167, 225);
+}
+
 
 
