@@ -14,7 +14,11 @@
 
 .home{
     display: flex;
+    width: 100%;
+    border: 2px rgb(255, 0, 251) solid;
+    background-color: orange;
 }
+
 .iniciar-sesion{
     border: 2px red solid;
     display: flex;
