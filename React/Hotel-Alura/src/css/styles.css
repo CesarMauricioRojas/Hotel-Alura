@@ -1,8 +1,39 @@
-.home{
+.boton-login{
+    border: 2px rgb(0, 255, 170) solid;
+}
 
+.form {
+    border: 2px red solid;
     display: flex;
-    
-    
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 35vh;
+    margin: 0 auto;
+}
+
+.home{
+    display: flex;
+}
+.iniciar-sesion{
+    border: 2px red solid;
+    display: flex;
+    height: 550px;
+}
+
+.iniciar-sesion_articulo-uno{
+    background-color: #FFFFFF;
+    color:rgb(0, 183, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iniciar-sesion_articulo-dos{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    border: 2px red solid;
 }
 
 .ingresar{
@@ -26,6 +57,5 @@
     color: rgb(0, 153, 255);
 }
 
-.boton-login{
-    border: 2px rgb(0, 255, 170) solid;
-}
+
+

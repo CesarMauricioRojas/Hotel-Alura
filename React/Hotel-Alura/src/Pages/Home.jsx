@@ -4,6 +4,7 @@ import logoHotel from "../Imagenes/aH-150px.png"
 import login from "../Imagenes/login.png"
 import Footer from '../Components/Footer'
 import '../css/styles.css'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
                 <div className='ingresar-columna'>
                     <img src={logoHotel} alt="logo-hotel" />
                     <div className='boton-login'>
-                        <h2>LOGIN</h2>
+                        <h2><Link to='/login'>LOGIN</Link></h2>
                         <img src={login} width={"80px"} alt="login" />
                     </div>
                 </div>
