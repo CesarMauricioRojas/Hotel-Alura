@@ -10,13 +10,13 @@ const Home = () => {
   return (
     <div>
         <section className='home'>
-            <article>
-                <img src={menu} alt="menu" />
+            <article className='home_articulo-uno'>
+                <img src={menu} alt="menu" className='home_articulo-uno_imagen'/>
             </article>
             
-            <article className='ingresar'>
-                <div className='ingresar-columna'>
-                    <img src={logoHotel} alt="logo-hotel" />
+            <article className='home_ingresar'>
+                <div className='home_ingresar-columna'>
+                    <img src={logoHotel} alt="" />
                     <div className='boton-login'>
                         <h2><Link to='/login'>LOGIN</Link></h2>
                         <img src={login} width={"80px"} alt="login" />
