@@ -17,7 +17,7 @@ const Home = () => {
             <article className='home_ingresar'>
                 <div className='home_ingresar-columna'>
                     <img src={logoHotel} alt="" />
-                    <div className='boton-login'>
+                    <div className='home_ingresar-columna_boton-login'>
                         <h2><Link to='/login'>LOGIN</Link></h2>
                         <img src={login} width={"80px"} alt="login" />
                     </div>
